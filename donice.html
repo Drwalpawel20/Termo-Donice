@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termodonice - Nowoczesne Donice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      scroll-behavior: smooth;
+      background: linear-gradient(to bottom right, #e6e6e6, #d3f0d7);
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px 40px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 5vw;
+      min-height: 80vh;
+      gap: 30px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    section img {
+      width: 35vw;
+      max-width: 400px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    section .text {
+      max-width: 500px;
+    }
+
+    h1, h2 {
+      margin-bottom: 16px;
+      font-size: 1.8rem;
+      color: #222;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      padding: 60px 10vw;
+      background: #111;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Termodonice</strong></div>
+    <nav>
+      <a href="#opis">Opis</a>
+      <a href="#zalety">Zalety</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="opis">
+    <div class="text">
+      <h2>Opis produktu</h2>
+      <p>Donice Termodonice o rozmiarze 45 × 45 × 55 cm. Możliwość wyboru koloru i rozmiaru po kontakcie. Donice wykonane są z mrozoodpornej masy, znacznie trwalszej niż tradycyjny tynk.</p>
+      <p>Pokazane na zdjęciu donice mają już 2 lata i nadal wyglądają jak nowe.</p>
+      
+    </div>
+    <img src="image.jpg" alt="Donice Termodonice">
+  </section>
+
+  <section>
+    <div class="text">
+      <h2>Termoizolacja</h2>
+      <p>Specjalna konstrukcja chroni korzenie przed przegrzewaniem i przemarznięciem. Donice pomagają zatrzymać wilgoć, co poprawia kondycję roślin i zmniejsza częstotliwość podlewania.</p>
+    </div>
+    <img src="97fc1f27-2cc6-4266-8443-6b7f10a42319.jpg" alt="Termoizolacyjne donice">
+  </section>
+
+  <section>
+    <div class="text">
+      <h2>Zaskakująca lekkość</h2>
+      <p>Pomimo solidnego wyglądu, donice ważą jedynie ok. 2 kg. Łatwe w transporcie i aranżacji.</p>
+    </div>
+    <img src="7d1900a6-33e3-4464-acd9-60f4c7b97d85.jpg" alt="Lekkie donice">
+  </section>
+
+  <section>
+    <div class="text">
+      <h2>Nowoczesny Design</h2>
+      <p>Połączenie funkcjonalności i stylu. Idealne do wnętrz i ogrodów. Trwałość i łatwość utrzymania w czystości.</p>
+    </div>
+    <img src="20ded051-dc88-4e10-8037-27291eef5caf.jfif" alt="Nowoczesny design">
+  </section>
+
+  <section id="zalety">
+    <div class="text">
+      <h2>Zalety naszych donic</h2>
+      <ul>
+        <li>Ręczne wykonanie z dbałością o detale</li>
+        <li>Ekskluzywne, odporne materiały</li>
+        <li>Innowacyjna, lekka konstrukcja</li>
+        <li>Termoizolacyjność i trwałość</li>
+        <li>Elastyczność w rozmiarze i kolorze</li>
+        <li>Odporność na warunki atmosferyczne</li>
+      </ul>
+    </div>
+    <img src="97fc1f27-2cc6-4266-8443-6b7f10a42319.jfif" alt="Zalety donic">
+  </section>
+  <div style="width: 100%; text-align: center; background-color: #e0efe6; color: #222; padding: 30px 20px; font-size: 1.1rem; font-weight: 500;">
+  <p><strong>CENA ZA DONICĘ O ROZMIARZE 45 × 45 × 55 CM WYNOSI 180 ZŁ</strong></p>
+  <p style="margin-top: 10px; font-size: 0.95rem; color: #444;">Ceny innych rozmiarów podlegają negocjacjąm. Przy większych zamówieniach możliwe zniżki.</p>
+</div>
+
+<div id="popupKontakt" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+  <div style="background-color:#fff; max-width:800px; width:90%; display:flex; flex-wrap:wrap; border-radius:10px; overflow:hidden;">
+    <div style="flex:1; background-color:#e0efe6; padding:20px; min-width:250px;">
+      <h3>Dane kontaktowe</h3>
+      <p><strong>Telefon:</strong> +48 605 173 967</p>
+      <p><strong>Email:</strong> drwalpawel20@gmail.com</p>
+    </div>
+    <div style="flex:1; padding:20px; min-width:250px;">
+      <h3>Formularz kontaktowy</h3>
+      <form action="https://formsubmit.io/send/drwalpawel20@gmail.com" method="POST">
+        <input name="_redirect" type="hidden" value="https://twojastrona.pl/dziekujemy.html">
+        <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required style="width:100%;padding:8px;margin-bottom:10px;">
+        <input type="email" name="Email" placeholder="Twój email" required style="width:100%;padding:8px;margin-bottom:10px;">
+        <textarea name="Wiadomość" rows="4" placeholder="Twoja wiadomość" required style="width:100%;padding:8px;margin-bottom:10px;"></textarea>
+        <button type="submit" style="padding:10px 20px; background-color:#2f6846; color:#fff; border:none; cursor:pointer;">Wyślij wiadomość</button>
+      </form>
+    </div>
+  </div>
+  <button onclick="document.getElementById('popupKontakt').style.display='none'" style="position:absolute;top:20px;right:30px;font-size:28px;color:#fff;background:none;border:none;cursor:pointer;">&times;</button>
+</div>
+
+<script>
+  function otworzKontakt() {
+    document.getElementById('popupKontakt').style.display = 'flex';
+  }
+</script>
+
+
+</footer>
+
+<script>
+  document.querySelectorAll('a[href="#kontakt"]').forEach(el => {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      otworzKontakt();
+    });
+  });
+</script>
+  <footer id="kontakt">
+    <div>
+      <h2>Kontakt</h2>
+      <p>Telefon: <a href="tel:+48123456789" style="color:#4CAF50">+48 605 173 967</a></p>
+      <p>Email: <a href="mailto:drwalpawel20@gmail.com" style="color:#4CAF50">drwalpawel20@gmail.com</a></p>
+    </div>
+    <form action="https://formsubmit.io/send/drwalpawel20@gmail.com" method="POST">
+        <input name="_redirect" type="hidden" value="https://twojastrona.pl/dziekujemy.html">
+        <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required style="width:100%;padding:8px;margin-bottom:10px;">
+        <input type="email" name="Email" placeholder="Twój email" required style="width:100%;padding:8px;margin-bottom:10px;">
+        <textarea name="Wiadomość" rows="4" placeholder="Twoja wiadomość" required style="width:100%;padding:8px;margin-bottom:10px;"></textarea>
+        <button type="submit" style="padding:10px 20px; background-color:#2f6846; color:#fff; border:none; cursor:pointer;">Wyślij wiadomość</button>
+    </form>
+  </footer>
+</body>
+</html>
+</html>

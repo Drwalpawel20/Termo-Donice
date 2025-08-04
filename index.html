@@ -226,13 +226,30 @@
       <p>Email: <a href="mailto:drwalpawel20@gmail.com" style="color:#4CAF50">drwalpawel20@gmail.com</a></p>
     </div>
     <form action="https://formsubmit.io/send/drwalpawel20@gmail.com" method="POST">
-        <input name="_redirect" type="hidden" value="https://twojastrona.pl/dziekujemy.html">
+        <input type="hidden" name="_redirect" value="https://drwalpawel20.github.io/Termo-Donice/#wyslano" />
+        <input type="hidden" name="_formsubmit_id" value="" />
         <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required style="width:100%;padding:8px;margin-bottom:10px;">
         <input type="email" name="Email" placeholder="Twój email" required style="width:100%;padding:8px;margin-bottom:10px;">
         <textarea name="Wiadomość" rows="4" placeholder="Twoja wiadomość" required style="width:100%;padding:8px;margin-bottom:10px;"></textarea>
         <button type="submit" style="padding:10px 20px; background-color:#2f6846; color:#fff; border:none; cursor:pointer;">Wyślij wiadomość</button>
     </form>
   </footer>
+<script>
+  function wyslanoWiadomosc() {
+    document.getElementById('popupKontakt').style.display = 'none';
+    alert("Wiadomość została wysłana. Dziękujemy!");
+  }
+</script>
+<script>
+  
+  if (window.location.hash === "#wyslano") {
+    alert("Wiadomość została wysłana. Dziękujemy!");
+   
+    history.replaceState("", document.title, window.location.pathname + window.location.search);
+  }
+</script>
+
 </body>
 </html>
 </html>
+

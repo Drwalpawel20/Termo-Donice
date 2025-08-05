@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drwalpawel20.github.io/Termo-Donice/sitemap.xml
+Sitemap: https://raw.githubusercontent.com/Drwalpawel20/Termo-Donice/refs/heads/main/sitemap.xml

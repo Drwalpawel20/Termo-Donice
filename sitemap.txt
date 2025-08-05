@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://drwalpawel20.github.io/Termo-Donice/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+https://drwalpawel20.github.io/Termo-Donice/
+https://drwalpawel20.github.io/Termo-Donice/index.html
+https://drwalpawel20.github.io/Termo-Donice/o-nas.html
+https://drwalpawel20.github.io/Termo-Donice/kontakt.html
+https://drwalpawel20.github.io/Termo-Donice/produkty.html
+https://drwalpawel20.github.io/Termo-Donice/styl-donic.html
